@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-#Importing the Dataset. Here we use the dataset from ML Data
+#Importing the Dataset. Here we use the dataset from ML Data.
 Dataset = pd.read_csv("heart_disease_dataset.csv")
 X = Dataset.iloc[:, :-1].values
 y = Dataset.iloc[:, -1].values
